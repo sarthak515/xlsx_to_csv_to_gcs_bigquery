@@ -1,0 +1,1 @@
+Take any demo xlsx sheet containing two or more sheets upload it to bucket then write a cloud function which will convert this xlsx sheets to csv files, store them in same bucket and then load the data to bigquery having table name same as sheet names. the function will also delete the csv files once data get loaded to bigquery.
